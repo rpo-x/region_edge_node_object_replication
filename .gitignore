@@ -1,0 +1,11 @@
+# Ignore Terraform working directory
+.terraform/
+**/.terraform/
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.*
+.crash.log
+
+# Ignore large binary artifact
+big_file.zip
